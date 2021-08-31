@@ -6,7 +6,7 @@ namespace Introduction_Array
     {
         static void Main(string[] args)
         {
-            //int[] numver = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //int[] number = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
             //string[] names = { "Sina", "Ali", "Mina", "Reza", "Sara" };
 
