@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Introduction_Interface
 {
-    class IMyInterface
+    public interface IMyInterface
     {
-        string name;
-        string family;
+        string Name(string value);
+        string Family(string value);
+        string UniqueKey(string value);
+        string AccessLevel(string value);
     }
 }
