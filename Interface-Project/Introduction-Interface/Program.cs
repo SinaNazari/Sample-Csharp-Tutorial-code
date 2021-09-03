@@ -21,18 +21,11 @@ namespace Introduction_Interface
             {
                 Console.WriteLine($"Name:{item.Name} Famly:{item.Family} UniqceKey:{item.UniqceKey} AccessLevel:{item.AccessLevel}");
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
                 Console.ResetColor();
             }
 
-            foreach (var item in employees)
-            {
-                Console.WriteLine($"Name:{p2.Name} Famly:{p2.Family} UniqceKey:{p2.UniqceKey} AccessLevel:{p2.AccessLevel}");
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-                Console.ResetColor();
-            }
-
+            
             Console.ReadKey();
         }
     }
