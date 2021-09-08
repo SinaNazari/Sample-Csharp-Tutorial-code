@@ -54,6 +54,24 @@ namespace Introduction_Linq
             var resulat14 = (from n in number
                              select n).Take(9).Skip(4).ToList();
 
+            var resulat17 = (from n in number
+                             where n == 8
+                             select n).First();
+
+
+            var resulat18 = (from n in number
+                             where n == 8
+                             select n).FirstOrDefault();
+
+            var resulat19 = (from n in number
+                             where n == 59
+                             select n).Single();
+
+
+            var resulat20 = (from n in number
+                             where n == 59
+                             select n).SingleOrDefault();
+
 
             var resulat10 = (from n in names
                              select n).ToList();
@@ -69,7 +87,11 @@ namespace Introduction_Linq
             var resulat13 = (from n in names
                              select n.Contains("i").ToString()).ToList();
 
+            var resulat21 = (from n in names
+                             select n.ToLower().StartsWith("s")).ToList();
 
+            var resulat22 = (from n in names
+                             select n.ToLower().EndsWith("d")).ToList();
         }
     }
 }
